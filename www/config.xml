@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "mob.app.dev.input"
+        id        = "mob.app.dev.output"
         version   = "1.0.0">
 
-    <name>Application Input Test</name>
+    <name>Application Output Test</name>
 
     <description>
-        A sample application that counts the occurances of input events.
+        A sample application that counts the occurances of output events.
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
@@ -22,4 +22,5 @@
 	
 	<access origin="*"/>
    	<plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.3.4" />
 </widget>
